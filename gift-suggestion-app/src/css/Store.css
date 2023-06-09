@@ -1,0 +1,92 @@
+.StoreContainer{
+    height: 65%;
+    width: 95%;
+    background-color: #191919;
+    position: relative;
+    top: -530px;
+    left: 30px;
+    border-radius: 20px;
+    padding: 20px;
+    overflow: auto;
+}
+
+.Store-buttons{
+    position: relative;
+    height: 50px;
+    bottom: 540px;
+    float: right;
+    right: 50px;
+}
+
+#reset-btn{
+  width: 70px;
+}
+
+.Store-buttons-icon{
+    border-radius: 8px;
+    width: 60px;
+    height: 35px;
+    margin-left: 10px;
+    background-color: #fd625d !important;
+    color: antiquewhite;
+    box-shadow: #fd625d 0 0 100px;
+    border: none;
+    transition: 0.1s ease-in-out;    
+}
+
+.Store-buttons-icon:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+    box-shadow: #fd625d 0 0 20px, #fd625d 0 0 100px;
+}
+
+.Store-buttons-icon:active{
+    background-color: antiquewhite;
+    /* color: black; */
+    box-shadow: #fd625d 0 0 10px,#fd625d 0 0 20px, #fd625d 0 0 100px;
+}
+
+.Store-icons{
+    height: 15px;
+    width: 15px;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    /* height: 7px; */
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #fd625d;
+    border-radius: 20px;
+  }
+/* Track on hover*/
+  ::-webkit-scrollbar-track:hover {
+    background: antiquewhite;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fd625d;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+  }
+
+  .userList{
+    color: white;
+  }
+
+  .loading{
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+  }

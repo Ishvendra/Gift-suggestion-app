@@ -1,0 +1,112 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+#outer-container{
+  height: 0px;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  /* position: relative; */
+  /* display: flex; */
+  flex-direction: column;
+}
+
+.main-content{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.pic-container{
+  box-shadow: inset 200px 0 1000px rgb(5, 5, 5);
+  /* background-color: black; */
+  display: flex;
+  height: 100%;
+  width: max-content;
+  min-width: 100px;
+  position: absolute;
+  float: right;
+  /* z-index: 999; */
+  right: 0px;
+  margin-top: -50px;
+}
+
+.homepage-picture{
+  /* position: ; */
+  max-height: 100%;
+  width: auto;
+  min-width: 100px;
+  right: 0px;
+  top: 0px;
+  opacity: 0.4;
+  /* box-shadow: inset 0 0 100px #f8a100; */
+  z-index: -1;
+}
+
+.Logo{
+  font-size: 3.2em;
+  font-family: 'Satisfy',cursive;
+  color: antiquewhite;
+  margin: 100px 0 0 50px;
+  cursor: pointer;
+  width: 30%;
+  position: relative;
+}
+
+@media screen and (min-width: 601px) {
+  .Logo {
+    font-size: 3.2em;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .Logo {
+    font-size: 2em;
+    top: 20px;
+    left: -15px;
+    position: relative;
+  }
+}
+
+.Logo-img{
+  width: 80px;
+  position: absolute;
+  margin: -12px 0 0 -340px;
+  z-index: -1;
+  opacity: 0.5;
+  transition: opacity .2s ease-in-out;
+  
+}
+
+.Logo:hover{
+  text-shadow: #FC0 1px 0 10px;
+} 
+
+.Logo:hover .Logo-img {
+  opacity: 1;
+  cursor: pointer;
+  filter: drop-shadow(1px 0 10px #fd625d);
+}
+
+.Header{
+  width: 70%;
+  height: 300px;
+  /* background-color: #FC0; */
+  margin: 40px 0 0 30px;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: rgb(252, 252, 252);
+  background: #fd625d;
+}
+
+::selection {
+  color: rgb(255, 255, 255);
+  background: #fd625d;
+}

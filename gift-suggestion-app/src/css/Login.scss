@@ -1,0 +1,148 @@
+.login-page{
+    height: 325px;
+    width: 400px;
+    position: relative;
+    top: -450px;
+    background-color: rgb(253, 98, 93, 0.5);
+    opacity: 0.4;
+    border-radius: 0 20px 20px 0;
+    transition: 0.3s ease-in-out;
+    padding-top: 45px;
+}
+
+.login-page:hover{
+    opacity: 1;
+    background-color: rgb(253, 98, 93, 0.7);
+    width: 40vw;
+    margin-left: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 100px rgb(253 98 93 /0.5);
+    padding-left: 2%;
+}
+
+.login-icons{
+    color: white;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+#login-btn{
+    margin-top: 30px;
+    margin-left: 45px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    /* box-shadow: #000000 2px 2px 1px; */
+    color: white;
+    height: 25px;
+    width: 100px;
+    transition: 0.2s ease-in-out;
+}
+
+#login-btn:hover{
+    background-color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.login-input{
+    background-color: transparent;
+    border: 1px dashed rgb(255, 255, 255);
+    color: white;
+}
+
+
+  .cta {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    margin: auto;
+    margin-top: 15px;
+    margin-left: 47px;
+    padding: 19px 22px;
+    transition: all 0.2s ease;
+    color: white;
+  }
+  .cta:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    background: rgba(255, 171, 157, 0.5);
+    width: 46px;
+    height: 46px;
+    transition: all 0.3s ease;
+  }
+  .cta span {
+    position: relative;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 900;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+  .cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: rgb(255, 255, 255);
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+  }
+  .cta:hover:before {
+    width: 130%;
+    background: #ffab9d;
+    border-radius: 1px;
+    margin-top: 5px;
+    height: 35px;
+  }
+  .cta:hover{
+    cursor: pointer;
+    color: black;
+  }
+  .cta:hover svg {
+    transform: translateX(0);
+    stroke: rgb(0, 0, 0);
+    transform: translateX(20px);
+  }
+  .cta:active {
+    transform: scale(0.96);
+  }
+
+ .login-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+.login-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+  }
+  
+.login-input::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+  }
+
+#signup-text{
+  color: white;
+  margin-left: 45px;
+  margin-top: 20px;
+  font-size: 0.8em;
+}
+
+#signup-link{
+  display: inline;
+  text-decoration:underline
+}
+
+#signup-link:hover{
+  cursor: pointer;
+  color: yellow;
+}

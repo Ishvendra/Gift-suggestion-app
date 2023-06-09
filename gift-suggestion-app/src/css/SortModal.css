@@ -1,0 +1,14 @@
+#sort-list{
+    list-style-type: none;
+    position: relative;
+    left: -20px;
+    top: -20px;
+    padding: 0px;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.sort-li:hover{
+    color: #fd625d;
+    cursor: pointer;
+}

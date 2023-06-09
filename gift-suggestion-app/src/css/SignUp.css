@@ -1,0 +1,272 @@
+.signup-page{
+    height: 380px;
+    width: 94vw;
+    position: relative;
+    top: -490px;
+    color: white;
+    background-color: rgb(253, 98, 93, 0.5);
+    opacity: 0.4;
+    border-radius: 0 20px 20px 0;
+    transition: 0.2s ease-in-out;
+    padding-left: 2%;
+}
+
+.signup-page:hover{
+    opacity: 1;
+    background-color: rgb(253, 98, 93, 0.7);
+    width: 95vw;
+    margin-left: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 100px rgb(253 98 93 /0.5);
+    padding-left: 2%;
+}
+
+.Signup-container{
+    position: relative;
+    top: 10px;
+    /* left: 35px; */
+    width: 70%;
+    height: 350px;
+    color: white;
+}
+
+.Left-signup-container{
+    width: 49%;
+    height: 100%;
+    display: inline-block;
+}
+
+.Right-signup-container{
+    width: 49%;
+    height: 100%;
+    float: right;
+    padding-top: 67px;
+}
+
+.signup-input{
+    background-color: transparent;
+    border: 1px dashed rgb(255, 255, 255);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.test{
+  margin-bottom: 0px;
+}
+
+.signup-input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(100%);
+}
+
+
+.signup-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(198, 198, 198);
+    opacity: 1; /* Firefox */
+  }
+  
+.signup-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(198, 198, 198);
+  }
+  
+.signup-input::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(198, 198, 198);
+  }
+
+  .General-input-Signup::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(198, 198, 198);
+    opacity: 1; /* Firefox */
+  }
+  
+.General-input-Signup:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(198, 198, 198);
+  }
+  
+.General-input-Signup::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(198, 198, 198);
+  }
+
+.Signup-title{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.Signup-subheading{
+  font-size: 0.8em;
+}
+
+.Signup-text{
+    font-size: 0.8em;
+    /* position: relative;
+    top: -30px;
+
+    margin-bottom: -20px; */
+}
+
+.ex{
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+}
+
+.First-name{
+    display: inline-block;
+    font-size: 0.8em;
+}
+
+.Last-name{
+    display: inline-block;
+    margin-left: 9px;
+    font-size: 0.8em;
+}
+
+/* .signup-input{
+    width: 215px;
+    margin-bottom: 10px;
+} */
+
+.signup-input-left{
+    background-color: transparent;
+    border: 1px dashed rgb(255, 255, 255);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    width: 215px;
+    margin-bottom: 15px;
+}
+
+.General-input-Signup{
+    width: 358px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: 1px dashed rgb(255, 255, 255);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.General-input-left-signup{
+    width: 358px;
+    margin-bottom: 4px;
+}
+
+.Address-input-right-signup{
+    margin-left: 9px;
+}
+
+.Profile-submit-btn{
+    border-radius: 5px;
+    width: 895px;
+    height: 30px;
+    background-color: #fd625d;
+    color: antiquewhite;
+    box-shadow: #fd625d 0 0 100px;
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+
+.Profile-submit-btn:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+    box-shadow: #fd625d 0 0 20px, #fd625d 0 0 100px;
+    color: #fd625d;
+}
+
+.Profile-submit-btn:active{
+    background-color: antiquewhite;
+    color: black;
+    box-shadow: #fd625d 0 0 10px,#fd625d 0 0 20px, #fd625d 0 0 100px;
+}
+
+
+.cta-2 {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    margin: auto;
+    margin-top: 5px;
+    margin-left: 0px;
+    padding: 19px 22px;
+    transition: all 0.2s ease;
+    color: white;
+  }
+  .cta-2:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    background: rgba(255, 171, 157, 0.5);
+    width: 46px;
+    height: 46px;
+    transition: all 0.3s ease;
+  }
+  .cta-2 span {
+    position: relative;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 900;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+  .cta-2 svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: rgb(255, 255, 255);
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+  }
+  .cta-2:hover:before {
+    width: 130%;
+    background: #ffab9d;
+    border-radius: 1px;
+    margin-top: 5px;
+    height: 35px;
+  }
+  .cta-2:hover{
+    cursor: pointer;
+    color: black;
+  }
+  .cta-2:hover svg {
+    transform: translateX(0);
+    stroke: rgb(0, 0, 0);
+    transform: translateX(20px);
+  }
+  .cta-2:active {
+    transform: scale(0.96);
+  }
+
+.login-text{
+    color: white;
+    margin-top: -2px;
+    font-size: 0.8em;
+    position: absolute;
+}
+
+.login-link{
+    display: inline;
+    text-decoration:underline;
+}
+
+.login-link:hover{
+    cursor: pointer;
+    color: yellow;
+}
+
+.dropdown-state{
+  width: 175px;
+  color: white;
+}
+
+option{
+  color: #fd625d;
+  background-color: #fff;
+}

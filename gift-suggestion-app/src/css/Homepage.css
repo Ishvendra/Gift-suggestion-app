@@ -1,0 +1,143 @@
+.Outer-container{
+    height: 150px;
+    width: 700px;
+    /* background-color: aqua; */
+    margin-top: -400px;
+    margin-left: 30px; 
+}
+
+.Left-container{
+    height: 100%;
+    width: 20%;
+    /* background-color: #fd625d; */
+    /* display: flex; */
+    float: left;
+}
+
+.Left-container-content{
+    margin-left: 10px;
+    /* padding: 20px; */
+    font-size: 1.2em;
+    font-weight: bold;
+    color: antiquewhite;
+}
+
+.Right-container{
+    height: 100%;
+    width: 80%;
+    /* display: flex; */
+    /* background-color: aliceblue; */
+    float: right;
+}
+
+.slider{
+    height: 50%;
+    /* margin-left: 130px; */
+}
+
+.genders{
+    height: 50%;
+    /* position: absolute; */
+    /* margin-top: 0px; */
+    /* bottom:30px; */
+    /* background-color: blueviolet; */
+}
+
+#female{
+    color: #ff004b;
+    height: 45px;
+    width: 45px;
+    /* background-color: aquamarine; */
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+#male{
+    color:#0082ff;
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
+    /* background-color: #fd625d; */
+}
+
+.Gender-icons{
+    transition: .1s ease-in-out;
+    position: relative;
+    left: 2px;
+    top: 2px;
+    padding-bottom: 5px;
+}
+
+.Gender-icons:hover{
+    cursor: pointer;
+    filter: drop-shadow(antiquewhite  2px 2px) ;
+    position: relative;
+    left: -2px;
+    top: -2px;
+}
+
+.Gender-icons:active{
+    position: relative;
+    left: 2px;
+    top: 2px;
+    filter: none;
+}
+
+#find-gift-btn{
+    background-color: #fd625d;
+    border: none;
+    width: 150px;
+    color: white;
+    border-radius: 20px;
+    font-size: 1.2em;
+    font-family: 'satisfy';
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: 30px;
+    transition: .2s ease-in-out;
+    position: relative;
+    left: 2px;
+    top: 2px;
+    box-shadow: #fd625d 0 0 100px;
+}
+
+#find-gift-btn:hover{
+    box-shadow: antiquewhite  2px 2px;
+    position: relative;
+    left: -2px;
+    top: -2px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+#find-gift-btn:active{
+    position: relative;
+    left: 2px;
+    top: 2px;
+    box-shadow: none;
+}
+#marking{
+    color:white;
+    font-family: 'satisfy';
+    font-size: 5em;
+    opacity: 0.3;
+    position: relative;
+    bottom: 145px;
+    left: 350px;
+}
+
+#emoji1{
+    position: relative;
+    bottom:248px;
+    left:360px;
+    font-size: 3em;
+    opacity: 0.4;
+}
+
+#emoji2{
+    position: relative;
+    bottom :360px;
+    left :440px;
+    font-size: 3em;
+    opacity: 0.4;
+}

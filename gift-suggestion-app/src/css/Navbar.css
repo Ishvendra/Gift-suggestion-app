@@ -1,0 +1,43 @@
+.Navbar-body{
+    width: 100vw;
+    height: 50px;
+    opacity: 0.5;
+    background-color: rgb(16, 16, 16);
+    transition: opacity .2s ease-in-out;
+    box-shadow: black 0 2px 5px 2px, black 0 2px 15px 2px, black 0 2px 35px 2px;
+    /* margin-top: -20px !important; */
+    position: fixed;
+}
+
+.Navbar-body:hover{
+    opacity: 1;
+}
+
+.Navbar-icons{
+    height: 30px;
+    width: 30px;
+    margin-top: 8px;
+    margin-left: 20px;
+    color: white;
+    filter: drop-shadow(1px 0 20px white);
+    transition: 0.1s ease-in-out;
+}
+
+.Navbar-icons:hover{
+    cursor: pointer;
+    filter: drop-shadow(1px 0 5px antiquewhite);
+    color: rgb(255, 255, 255);
+}
+
+#hello-title{
+    color: white;
+    float: right;
+    margin-right: 20px;
+    margin-top: 14px;
+}
+
+#searchbar{
+    margin-right: 60px;
+    margin-top: 12px;
+    float: right;
+}
